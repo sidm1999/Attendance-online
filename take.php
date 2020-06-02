@@ -65,19 +65,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Online Attendance</a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.jpeg" alt="Online-Attendance-System" style="width:80px;height:40px;"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+        <h2 style="color: white; font-family:Helvetica, Arial, sans-serif; font-size:18px; font-weight:bold;">
           <ul class="nav navbar-nav navbar-right">
 			<li><a href="teacher.php">Dashboard</a></li>
 			<li><a href="profile.php">Profile</a></li>
-            
 			<li><a href="statistics.php">Statistics</a></li>
-			<li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
 			<li><a href="logout.php">Logout</a></li>
-          
-          </ul>
+          </ul></h2>
         </div><!--/.nav-collapse -->
       </div>
     </nav></br></br></br></br>

@@ -33,19 +33,17 @@
           <a class="navbar-brand" href="index.php"><img src="img/logo.jpeg" alt="Online-Attendance-System" style="width:80px;height:40px;"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
+        <h2 style="color: white; font-family:Helvetica, Arial, sans-serif; font-size:18px; font-weight:bold;">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="teacher.php">Dashboard</a></li>
             <li><a href="profile.php">Profile</a></li>
-           
-			<li><a href="statistics.php">Statistics</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="logout.php">Logout</a></li>
-          
-          </ul>
+			      <li><a href="statistics.php">Statistics</a></li>
+			      <li><a href="logout.php">Logout</a></li>
+         </ul>
+         </h2>
         </div><!--/.nav-collapse -->
       </div>
-    </nav></br></br></br></br>
- 
+    </nav></br></br></br></br></br>
   <div class="container">
     <?php
       $name = $_SESSION['name'];
@@ -54,8 +52,7 @@
       echo '<h2>Welcome , '.$name.'.</h2>';
       echo '<div class="wrapper">';
       // FOR EACH CLASS , GET IT'S INFO AND PREPARE A LINK
-      $n = new Node;
-       
+      $n = new Node;     
       if(!$classes) {
         echo '<h3 class="no-classes">You haven\'t taken any class yet!</h3>';
       } else { 
@@ -85,10 +82,10 @@
     
   </div>
   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="addClass" aria-hidden="true">
+  <hr>
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <h2 class="text-center"> Add Class </h2>
-          <hr>
             <div id="add_class_form">
               <select class="form-control" name="year">
               <?php foreach(range(date('Y',time()),1983) as $r) echo '<option>'.$r.'</option>'; ?>

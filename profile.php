@@ -38,7 +38,6 @@
             <li><a href="teacher.php">Dashboard</a></li>
 			<li  class="active"><a href="profile.php">Profile</a></li>
 			<li><a href="statistics.php">Statistics</a></li>
-			<li><a href="#about">About</a></li>
 			<li><a href="logout.php">Logout</a></li>
           </ul>
           </h2>
